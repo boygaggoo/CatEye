@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?> 
+
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android" 
+  android:id="@+id/simcard_layout" 
+  android:layout_width="fill_parent" 
+  android:layout_height="fill_parent"
+  android:background="#ff000000">
+    
+     <TextView
+         android:id="@+id/sim1"
+         android:layout_width="fill_parent" 
+         android:layout_height="wrap_content"
+         android:text="@string/sim1_notfind"
+         android:textSize="18sp"
+         android:textColor="#32cd32"/>
+     
+     <TextView
+         android:id="@+id/sim2"
+         android:layout_below="@id/sim1"
+         android:layout_width="fill_parent" 
+         android:layout_height="wrap_content"
+         android:text="@string/sim2_notfind"
+         android:textSize="18sp"
+         android:textColor="#32cd32"/>
+    
+    <LinearLayout
+	 android:id="@+id/headset_button_layout"
+	 android:orientation="vertical"
+	 android:layout_height="400dip"
+	 android:layout_width="fill_parent"
+	 android:layout_alignParentBottom="true"
+	 >
+     
+	     <Button 
+	         android:id="@+id/sim_pass"
+	         android:layout_width="fill_parent" 
+	         android:layout_height="0dp"
+	         android:text="@string/pass"
+	         android:textSize="50sp"
+	         android:layout_weight="1"
+	         android:textColor="#ffffffff"/>
+	     
+	     <Button 
+	         android:id="@+id/sim_fail"
+	         android:layout_width="fill_parent" 
+	         android:layout_height="0dp"
+	         android:text="@string/fail"
+	         android:layout_weight="1"
+	         android:textSize="50sp"
+	         android:textColor="#ffffffff"/>
+     </LinearLayout>
+     
+</RelativeLayout>

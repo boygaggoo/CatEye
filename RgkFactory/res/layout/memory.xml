@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?> 
+
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android" 
+  android:id="@+id/memory_layout" 
+  android:orientation="vertical" 
+  android:layout_width="fill_parent" 
+  android:layout_height="fill_parent"
+  android:background="#ff000000">
+     
+     <TextView
+         android:id="@+id/memory_info"
+         android:layout_width="fill_parent" 
+         android:layout_height="wrap_content"
+         android:textSize="25dp"
+         android:textColor="#32cd32"/>
+     
+       <LinearLayout 
+          android:orientation="vertical" 
+          android:layout_width="fill_parent" 
+          android:layout_height="200dip"
+          android:layout_alignParentBottom="true">
+     
+	     <Button 
+	         android:id="@+id/memory_pass"
+	         android:layout_width="fill_parent" 
+	         android:layout_height="0dp"
+	         android:text="@string/pass"
+	         android:textSize="35sp"
+	         android:layout_weight="1"
+	         android:visibility="gone"
+	         android:textColor="#ffffffff"/>
+	     
+	     <Button 
+	         android:id="@+id/memory_fail"
+	         android:layout_width="fill_parent" 
+	         android:layout_height="0dp"
+	         android:text="@string/fail"
+	         android:textSize="35sp"
+	         android:layout_weight="1"
+	         android:visibility="gone"
+	         android:textColor="#ffffffff"/>
+       </LinearLayout>   
+</RelativeLayout>

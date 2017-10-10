@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="hello">Hello World, CitTest!</string>
+    <string name="app_name">FactoryMode</string>
+
+    <string name="auto_test">Auto Test</string>
+    <string name="clean">Clean Data</string>
+
+    <string name="touch_panel">TouchPanel</string>
+    <string name="lcd">LCD</string>
+    <string name="gps">GPS</string>
+
+    <string name="battery">Battery</string>
+    <string name="key">Key</string>
+    <string name="LoundSpeaker">Loudspeaker</string>
+
+    <string name="Earphone">Earphone</string>
+    <string name="Microphone">Microphone</string>
+    <string name="Headset">Receiver</string>
+
+    <string name="WiFi">WiFi</string>
+    <string name="Bluetooth">Bluetooth</string>
+    <string name="Vibrator">Vibrator</string>
+
+    <string name="Telephony">Telephony</string>
+    <string name="BackLED">BackLED</string>
+    <string name="Memory">Memory</string>
+
+    <string name="Gravity_Sensor">G-Sensor</string>
+    <string name="Light_Sensor">L-Sensor</string>
+    <string name="Distance_Sensor">P-Sensor</string>
+
+    <string name="shake_hint">Please shake the phone</string>
+    <string name="gyroscope">Gyroscope</string>
+    <string name="gyroscope_test_title">"The maximum angular velocity of rotation is not less than
+        <xliff:g id="seconds">%d</xliff:g>(rad/sec), the test pass"
+    </string>
+    <string name="gyroscope_test_item">"X(+):\n\nX(-):\n\nY(+):\n\nY(-):\n\nZ(+):\n\nZ(-):"</string>
+    <!-- MSensor -->
+    <string name="magnetic">M-Sensor</string>
+
+    <string name="SDcard">SDcard</string>
+    <string name="Main_Camera">Main Camera</string>
+    <string name="sub_Camera">Sub Camera</string>
+
+    <string name="SIM_Card">SIM card</string>
+    <string name="FM">FM</string>
+    <string name="Calibration">P-Calibration</string>
+
+    <string name="hall">Hall</string>
+    <string name="hall_content">Keep the magnet close to the Hall ...</string>
+
+    <string name="otg">OTG</string>
+    <string name="otg_state_device">Current OTG status: Equipment</string>
+    <string name="otg_state_host">Current OTG status: Host</string>
+
+    <string name="pass">Pass</string>
+    <string name="fail">Fail</string>
+    <string name="choose">Choose:</string>
+
+
+    <string name="sim1_notfind">SIM1:Not find</string>
+    <string name="sim2_notfind">SIM2:Not find</string>
+    <string name="sim1_find">SIM1:Inserted</string>
+    <string name="sim2_find">SIM2:Inserted</string>
+
+    <string name="Status">Status:</string>
+    <string name="Charging">Charging</string>
+    <string name="DisCharging">DisCharging</string>
+    <string name="Full">Full</string>
+    <string name="Unknow">Unknow</string>
+
+    <string name="plugType">plugType:</string>
+    <string name="usb">USB</string>
+    <string name="ac">AC</string>
+    <string name="wireless">WireLess</string>
+    <string name="levle">levle:</string>
+    <string name="scale">scale:</string>
+    <string name="temp">temp:</string>
+    <string name="technology">technology:</string>
+    <string name="voltage">voltage:</string>
+
+    <string name="batteryhealth">Health:</string>
+    <string name="good">Good</string>
+    <string name="dead">Dead</string>
+    <string name="cold">Cold</string>
+    <string name="over_voltage">Over Voltage</string>
+    <string name="overheat">overheat</string>
+
+    <string name="loundspeaker_idea">Away from your ear,check if you can hear the sound</string>
+    <string name="headset_idea">Close to your ear,check if you can hear the sound</string>
+
+    <string name="inserted_internalsdcard">Have detected internal SDCard</string>
+    <string name="inserted_externalsdcard">Have detected external SDCard</string>
+    <string name="uninserted_externalsdcard">Not find external SDCard</string>
+    <string name="total">Total volume:</string>
+    <string name="free">Available volume:</string>
+
+    <string name="take_picture">Take picture</string>
+    <!-- add BUG_ID:JWLYL-95 liuzhijun 20140818 (start) -->
+    <!-- <string name="priview">Priview</string> -->
+    <string name="priview">Pictures</string>
+    <!-- add BUG_ID:JWLYL-95 liuzhijun 20140818 (end) -->
+    <string name="camera_fail_open">Camera Open fail! Please make sure your phone has MainCamera!</string>
+    <string name="start_preview_failed">"Start preview failed."</string>
+
+    <string name="WifiAlreadOpen">WiFi already open.</string>
+    <string name="WifiNotOpen">WiFi is closed.</string>
+    <string name="AlreadToOpenWifi">Ready to open wifi..</string>
+
+    <string name="BluetoothIsTurningOn">Bluetooth is turning on..</string>
+    <string name="BluetoothIsScaning">Scaning..</string>
+    <string name="BluetoothScanFinish">Scan Finished</string>
+    <string name="BluetoothIsClosed">Bluetooth is closed.</string>
+
+    <string name="Gsensor_test">Shake the phone to test G-Seneor</string>
+    <string name="Gsensor_testing">Testing</string>
+    <string name="Gsensor_ok">OK</string>
+
+    <string name="start">Start</string>
+    <string name="stop">Stop</string>
+    <string name="time_out">Time Out</string>
+    <string name="is_locating">Location unknow or locating...</string>
+
+    <string name="insert_earphone">Please insert earphone to test</string>
+    <string name="start_record">Start record</string>
+    <string name="stop_record">Stop record and play</string>
+
+    <string name="checkValues">At strong light and weak light to detect the value change</string>
+    <string name="ls_value">Value:</string>
+    <string name="LS_text">Value:40.0</string>
+    <string name="no_Lsensor">No L-Sensor find on your phone!</string>
+
+    <string name="checkDisValues">Please close and leave sensor then watch the led whether on and
+        off!
+    </string>
+    <string name="no_DSensor">No Dis-Sensor find on your phone!</string>
+    <string name="DS_value">Distance:</string>
+
+    <string name="insert_earphone_to_openfm">Please insert headset to serach</string>
+    <string name="start_scan">Start scan</string>
+    <string name="stop_scan">Stop scan</string>
+    <string name="new_station">new station</string>
+
+    <string name="distance_modify">Als_ps calibration</string>
+    <string name="distance_modify_step">There are two steps for this operation.</string>
+    <string name="distance_modify_step1">First step,Please remove objects in front of distance
+        sensor,then click the start button.
+    </string>
+    <string name="distance_modify_step1_1">Retrieving effective parameters...</string>
+    <string name="distance_modify_step2">Second step,Please objects in front of distance
+        sensor,click the next button.
+    </string>
+    <string name="distance_modify_step2_2">Calibrating,do not move phone and object...</string>
+    <string name="distance_modify_step3">Third step:please moving objects slowly close to the
+        distance sensor or slowly away from the distance sensor and to verify calibration of the
+        distance sensor is successful.
+    </string>
+    <string name="playtime">00:00</string>
+    <string name="distance_modify_more">Recalibrate</string>
+    <string name="distance_modify_start">Start</string>
+    <string name="distance_modify_next">Next</string>
+    <string name="distance_modify_fail">Calibration fail(Object is too far from the distance
+        sensor,please moving objects near the distance sensor and calibrate it again)
+    </string>
+    <string name="distance_modify_fail_data_invaild">Calibration fail due to invaild data!</string>
+    <string name="distance_modify_yes">Finish</string>
+    <!--add dushiguang-->
+    <string name="item_test">Item_test</string>
+    <string name="test_results">Test Results</string>
+    <string name="test_results_title">Test Results</string>
+    <string name="TD_code">QR_code</string>
+    <string name="TD_results">QR Result</string>
+    <string name="TD_result_fail">QR Result FAIL</string>
+    <string name="GPS_opened">The GPS is opened</string>
+    <string name="GPS_close">The GPS is GPS_closing</string>
+    <string name="GPS_notice">Turn off GPS</string>
+    <string name="soft_version">Soft Version</string>
+    <string name="AP_version">AP Version</string>
+    <string name="Modem_version">Modem Version</string>
+    <string name="PSN">PSN</string>
+    <string name="IMEI1">IMEI1</string>
+    <string name="IMEI2">IMEI2</string>
+    <string name="Blutooth_address">Blutooth Address</string>
+    <string name="Wifi_address">Wifi Address</string>
+    <string name="To_info">Please update TP,Test failed!</string>
+    <string name="Totmemory_info">Total Memory:</string>
+    <string name="Avamemory_info">Available memory:</string>
+    <string name="Camera_test">锐嘉科科技Camera测试样张</string>
+    <string name="Hook_Key_down">Hook key has responded</string>
+    <string name="Hook_Key_up">Hook key up</string>
+    <string name="Time_Out">测试超时</string>
+    <!-- add dushiguang -->
+    <string name="key_home">Home Key</string>
+    <string name="key_back">Back Key</string>
+    <string name="key_menu">Menu Key</string>
+    <string name="key_power">Power Key</string>
+    <string name="key_volume_up">Volume Up Key</string>
+    <string name="key_volume_down">Volume Down Key</string>
+    <string name="key_Flash">Flash Light</string>
+    <string name="button_light">Button Light</string>
+    <string name="msg_clean_success">Clean data success</string>
+    <string name="msg_clean_fail">Clean data fail</string>
+    <string name="change_language">Change Language</string>
+    <string name="reset_phone">Reset Phone</string>
+    <string name="open_camera_error">Fail to connect to camera service!</string>
+
+    <string name="reset_phone_title">Reset phone</string>
+    <string name="reset_phone_message">Are you sure to reset the phone?</string>
+    <string name="reset_phone_ok">Ok</string>
+    <string name="reset_phone_cancel">Cancel</string>
+    <string name="ver_info">Version</string>
+    <string name="kernel_ver">Kernel Version</string>
+    <string name="android_ver">Android Version</string>
+    <string name="customer_ver">Customer Build Version</string>
+    <string name="tp_ver">TP Version</string>
+    <string name="board_info">Mainboard</string>
+    <string name="chip">BB Chip</string>
+    <string name="board">MS Board</string>
+    <string name="camera">Camera</string>
+
+    <string name="notification_light">Notification Light</string>
+    <string name="notification_click">Send a message to see the notification light is blinking
+    </string>
+    <string name="tp_test_pass">Pass, tap the screen to continue!</string>
+
+    <string name="lcd_blur">LCD blur</string>
+    <string name="rf_calibrate">RF Calibration:</string>
+    <string name="gps_calibrate">GPS Calibration:</string>
+    <string name="has_calibrate">Has been calibrated</string>
+    <string name="no_calibrate">No calibrated</string>
+    <string name="image_file_name_format" translatable="false">"'IMG'_yyyyMMdd_HHmmss"</string>
+    <!-- title for the dialog showing the error of camera hardware -->
+    <string name="camera_error_title">Camera error</string>
+    <!-- Dialog "OK" button. Dismisses dialog. -->
+    <string name="dialog_ok">OK</string>
+
+    <!-- message for the dialog showing the error of camera hardware -->
+    <string name="cannot_connect_camera">Can\'t connect to the camera.</string>
+    <!-- message for the dialog showing the camera is disabled because of security policies. Camera cannot be used. -->
+    <string name="camera_disabled">Camera has been disabled because of security policies.</string>
+
+    <string name="jtek_input_pwd">请输入　工厂测试　密码:</string>
+    <string name="jtek_wrong_pwd">密码错误，请重新输入！</string>
+    <string name="jtek_confirm">确认</string>
+
+</resources>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?> 
+
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android" 
+  android:id="@+id/distancesensor_layout"  
+  android:layout_width="fill_parent" 
+  android:layout_height="fill_parent"
+  android:background="#ff000000">
+      <TextView
+  		android:id="@+id/distancesensor_info"
+  		android:layout_width="fill_parent" 
+        android:layout_height="wrap_content"
+        android:textColor="#32cd32"
+        android:text="@string/checkDisValues"
+        android:textSize="18sp"/>
+        
+  	<TextView
+  		android:id="@+id/distancesensor_text"
+  		android:layout_width="fill_parent" 
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:layout_marginTop="100dip"
+        android:textColor="#32cd32"/>
+        
+        
+    <LinearLayout
+          android:id="@+id/distancesensor_button_layout" 
+		  android:orientation="vertical" 
+		  android:layout_alignParentBottom="true"
+		  android:layout_width="fill_parent" 
+		  android:layout_height="300dip">
+		  	<Button 
+            android:id="@+id/distancesensor_pass"
+            android:layout_width="fill_parent"
+		    android:layout_height="0dip"  
+		    android:layout_weight="1" 
+		    android:textSize="35sp"
+            android:text="@string/pass" 
+            android:visibility="gone"
+            />
+            
+            <Button 
+            android:id="@+id/distancesensor_fail"
+            android:layout_width="fill_parent"
+		    android:layout_height="0dip"  
+		    android:layout_weight="1"   
+		    android:textSize="35sp" 
+            android:text="@string/fail" 
+            />
+     </LinearLayout>
+</RelativeLayout>

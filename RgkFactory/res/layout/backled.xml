@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?> 
+
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android" 
+  android:id="@+id/backled_layout" 
+  android:orientation="vertical" 
+  android:layout_width="fill_parent" 
+  android:layout_height="fill_parent"
+  android:background="#ff000000">
+    <ImageView 
+      android:layout_width="fill_parent"
+      android:layout_height="fill_parent"
+      android:background="#ff0000"
+      />
+  <!-- 
+    <RelativeLayout
+        android:id="@+id/seekbar_layout"
+        android:orientation="vertical"
+        android:layout_height="80dp"
+        android:layout_width="fill_parent"
+        >
+	      <SeekBar
+	         android:id="@+id/seekbar"
+	         android:layout_width="250dp"
+	         android:layout_height="wrap_content" 
+	         android:layout_centerHorizontal="true"
+	         android:layout_centerVertical="true"/>
+    </RelativeLayout>
+    
+    <RelativeLayout
+        android:orientation="vertical"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:layout_below="@id/seekbar_layout"
+        android:layout_alignParentBottom="true"
+        >
+
+        <Button
+            android:id="@+id/backled_fail"
+            android:layout_width="fill_parent"
+            android:layout_height="200dp"
+            android:text="@string/fail"
+            android:layout_alignParentBottom="true"
+            android:textSize="50sp" />
+
+        <Button
+            android:id="@+id/backled_pass"
+            android:layout_width="fill_parent"
+            android:layout_height="200dp"
+            android:layout_above="@+id/backled_fail"
+            android:layout_alignParentLeft="true"
+            android:layout_marginBottom="0dp"
+            android:text="@string/pass"
+            android:textSize="50sp" />
+    
+    </RelativeLayout>
+	    -->
+</LinearLayout>

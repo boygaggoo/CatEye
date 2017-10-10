@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/key_layout">
+
+    <ScrollView
+        android:id="@+id/scrollview"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/keypad_button_layout"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <!--
+             <TextView
+            android:id="@+id/keypad_text"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_margin="15px"
+            android:gravity="center"
+            android:textColor="#32cd32"
+            android:textSize="20dip" />
+            -->
+
+            <Button
+                android:id="@+id/key_home"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:text="@string/key_home"
+                android:paddingBottom="5dp"
+                android:textSize="25sp" />
+
+            <Button
+                android:id="@+id/key_back"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:text="@string/key_back"
+                android:paddingBottom="5dp"
+                android:textSize="25sp" />
+
+            <Button
+                android:id="@+id/key_menu"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:text="@string/key_menu"
+                android:paddingBottom="5dp"
+                android:textSize="25sp" />
+
+            <Button
+                android:id="@+id/key_power"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:text="@string/key_power"
+                android:paddingBottom="5dp"
+                android:textSize="25sp" />
+
+            <Button
+                android:id="@+id/key_volume_up"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:text="@string/key_volume_up"
+                android:paddingBottom="5dp"
+                android:textSize="25sp" />
+
+            <Button
+                android:id="@+id/key_volume_down"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:text="@string/key_volume_down"
+                android:paddingBottom="5dp"
+                android:textSize="25sp" />
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/keypad_button_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/key_pass"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/pass"
+            android:textSize="35sp"
+            android:visibility="gone"
+            >
+        </Button>
+
+        <Button
+            android:id="@+id/key_fail"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/fail"
+            android:textSize="35sp" >
+        </Button>
+    </LinearLayout>
+
+</RelativeLayout>

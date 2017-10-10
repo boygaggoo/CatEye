@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical" 
+  android:layout_width="fill_parent" 
+  android:layout_height="fill_parent"
+  android:background="#ff000000"
+  android:id="@+id/notification_light_layout" >
+  <Button
+      android:id="@+id/notification_click"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:text="@string/notification_click"/>
+  <RelativeLayout
+        android:orientation="vertical"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:layout_alignParentBottom="true">
+
+        <Button
+            android:id="@+id/notificationlight_fail"
+            android:layout_width="fill_parent"
+            android:layout_height="200dp"
+            android:text="@string/fail"
+            android:layout_alignParentBottom="true"
+            android:textSize="50sp" />
+        <Button
+            android:id="@+id/notificationlight_pass"
+            android:layout_width="fill_parent"
+            android:layout_height="200dp"
+            android:layout_above="@+id/notificationlight_fail"
+            android:layout_alignParentLeft="true"
+            android:layout_marginBottom="0dp"
+            android:text="@string/pass"
+            android:textSize="50sp" />    
+    </RelativeLayout>
+</RelativeLayout>

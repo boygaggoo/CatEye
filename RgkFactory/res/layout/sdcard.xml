@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?> 
+
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android" 
+  android:id="@+id/sdcard_layout" 
+  android:orientation="vertical" 
+  android:layout_width="fill_parent" 
+  android:layout_height="fill_parent"
+  android:background="#ff000000">
+  
+    <LinearLayout 
+      android:id="@+id/sdcardtext_layout" 
+	  android:orientation="vertical" 
+	  android:layout_width="fill_parent" 
+	  android:layout_height="wrap_content">
+	  
+       <TextView 
+              android:id="@+id/internal_sdcard" 
+			  android:orientation="vertical" 
+			  android:layout_width="fill_parent" 
+			  android:layout_height="wrap_content"
+			  android:text="@string/inserted_internalsdcard"
+			  android:textColor="#32cd32"
+	          android:textSize="20sp"/>
+       <TextView 
+              android:id="@+id/internal_total" 
+			  android:orientation="vertical" 
+			  android:layout_width="fill_parent" 
+			  android:layout_height="wrap_content"
+			  android:text="@string/total"
+			  android:textColor="#32cd32"
+	          android:textSize="20sp"/>
+       <TextView 
+              android:id="@+id/internal_free" 
+			  android:orientation="vertical" 
+			  android:layout_width="fill_parent" 
+			  android:layout_height="wrap_content"
+			  android:text="@string/free"
+			  android:textColor="#32cd32"
+	          android:textSize="20sp"/>
+       <TextView 
+              android:id="@+id/external_sdcard" 
+			  android:orientation="vertical" 
+			  android:layout_width="fill_parent" 
+			  android:layout_height="wrap_content"
+			  android:text="@string/uninserted_externalsdcard"
+			  android:textColor="#32cd32"
+	          android:textSize="20sp"/>
+       <TextView 
+              android:id="@+id/external_total" 
+			  android:orientation="vertical" 
+			  android:layout_width="fill_parent" 
+			  android:layout_height="wrap_content"
+			  android:text="@string/total"
+			  android:textColor="#32cd32"
+	          android:textSize="20sp"/>
+        <TextView 
+              android:id="@+id/external_free" 
+			  android:orientation="vertical" 
+			  android:layout_width="fill_parent" 
+			  android:layout_height="wrap_content"
+			  android:text="@string/free"
+			  android:textColor="#32cd32"
+	          android:textSize="20sp"/>
+        
+    </LinearLayout>
+    
+    <RelativeLayout
+        android:orientation="vertical"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:layout_below="@id/sdcardtext_layout"
+        android:layout_alignParentBottom="true"
+        android:visibility="gone"
+        >
+
+        <Button
+            android:id="@+id/sdcard_fail"
+            android:layout_width="fill_parent"
+            android:layout_height="180dp"
+            android:text="@string/fail"
+            android:layout_alignParentBottom="true"
+            android:textSize="50sp" />
+
+        <Button
+            android:id="@+id/sdcard_pass"
+            android:layout_width="fill_parent"
+            android:layout_height="180dp"
+            android:layout_above="@+id/sdcard_fail"
+            android:layout_alignParentLeft="true"
+            android:text="@string/pass"
+            android:textSize="50sp" />
+
+    </RelativeLayout>
+</RelativeLayout>

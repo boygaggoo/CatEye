@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+	android:id="@+id/software_version_layout">
+    
+	<ScrollView
+	    xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent">
+		<LinearLayout
+		    android:layout_width="fill_parent"
+		    android:layout_height="fill_parent"
+		    android:orientation="vertical">
+		     <!-- AP Version -->
+		     <TextView
+			    style="@style/content_title_style"	
+			    android:id="@+id/internal_vertion_text"
+			    android:text="@string/AP_version"
+			  />
+			 <TextView
+			    style="@style/content_title_style"	
+			    android:id="@+id/vertion_content"
+			    android:text="@string/AP_version"
+			 />
+			 
+			 <View 
+			     android:layout_width="fill_parent"
+			     android:layout_height="1dp"
+			     android:background="#00FF00"			     
+			 />
+			 <!-- Modem Version -->
+			 <TextView	
+			    style="@style/content_title_style"		  
+			    android:id="@+id/modem_vertion_text"
+			    android:text="@string/Modem_version"
+			 />
+			 
+			 <TextView
+			    style="@style/content_title_style"	 
+			    android:id="@+id/modem_content"
+			    android:text="@string/Modem_version"
+			 />
+			 
+			 <View 
+			     android:layout_width="fill_parent"
+			     android:layout_height="1dp"
+			     android:background="#00FF00"			     
+			 />
+			 <!-- PSN -->
+			 <TextView	
+			    style="@style/content_title_style"		  
+			    android:id="@+id/PSN_text"
+			    android:text="@string/PSN"
+			 />
+			 
+			 <TextView
+			    style="@style/content_title_style"	 
+			    android:id="@+id/PSN_content"
+			    android:text="@string/PSN"
+			 />
+			 
+			 <View 
+			     android:layout_width="fill_parent"
+			     android:layout_height="1dp"
+			     android:background="#00FF00"			     
+			 />
+			 <!-- IMEI1 -->
+			 <TextView	
+			    style="@style/content_title_style"		  
+			    android:id="@+id/IMEI1_text"
+			    android:text="@string/IMEI1"
+			 />
+			 
+			 <TextView
+			    style="@style/content_title_style"	 
+			    android:id="@+id/IMEI1_content"
+			    android:text="@string/IMEI1"
+			 />
+
+			 <View 
+			     android:layout_width="fill_parent"
+			     android:layout_height="1dp"
+			     android:background="#00FF00"			     
+			 />
+			 <!-- IMEI2 -->
+			 <TextView	
+			    style="@style/content_title_style"		  
+			    android:id="@+id/IMEI2_text"
+			    android:text="@string/IMEI2"
+			 />
+			 <TextView
+			    style="@style/content_title_style"	 
+			    android:id="@+id/IMEI2_content"
+			    android:text="@string/IMEI2"
+			 />
+
+			 <View 
+			     android:layout_width="fill_parent"
+			     android:layout_height="1dp"
+			     android:background="#00FF00"			     
+			 />
+			 <!-- Blutooth address -->
+			 <!--
+		         <TextView	
+			    style="@style/content_title_style"		  
+			    android:id="@+id/blutooth_text"
+			    android:text="@string/Blutooth_address"
+			 />
+			 
+			 <TextView
+			    style="@style/content_title_style"	 
+			    android:id="@+id/blutooth_content"
+			    android:text="@string/Blutooth_address"
+			 />
+			 
+			 <View 
+			     android:layout_width="fill_parent"
+			     android:layout_height="1dp"
+			     android:background="#00FF00"			     
+			 />-->
+			 <!-- Wifi address -->
+			 <TextView	
+			    style="@style/content_title_style"		  
+			    android:id="@+id/wifi_text"
+			    android:text="@string/Wifi_address"
+			 />
+			 <TextView
+			    style="@style/content_title_style"	 
+			    android:id="@+id/wifi_content"
+			    android:text="@string/Wifi_address"
+			 />
+			 <View 
+			     android:layout_width="fill_parent"
+			     android:layout_height="1dp"
+			     android:background="#00FF00"			     
+			 />
+             <!--LCD-->
+              <TextView
+			    style="@style/content_title_style"	 
+			    android:id="@+id/lcd_info"
+			 />
+			 <TextView
+			     style="@style/content_title_style"	
+			     android:id="@+id/lcd_content"
+			 />
+
+			 <View 
+			     android:layout_width="fill_parent"
+			     android:layout_height="1dp"
+			     android:background="#00FF00"			     
+			 />
+			 <!--Camera-->
+			 <TextView
+			     style="@style/content_title_style"	
+			     android:id="@+id/camera_info"
+			 />
+			 <TextView
+			     style="@style/content_title_style"	
+			     android:id="@+id/camera_content"
+			 />
+			 <View 
+			     android:layout_width="fill_parent"
+			     android:layout_height="1dp"
+			     android:background="#00FF00"			     
+			 />
+			 <TextView
+			     style="@style/content_title_style"	
+			     android:id="@+id/tp_infor_text"
+			 />
+			 <TextView
+			     style="@style/content_title_style"	
+			     android:id="@+id/tp_infor_content"
+			 />			 
+			 <View 
+			     android:layout_width="fill_parent"
+			     android:layout_height="1dp"
+			     android:background="#00FF00"			     
+			 />
+			 
+			 <TextView
+			    style="@style/content_title_style"	
+			    android:id="@+id/external_vertion_text"
+			  />
+			 <TextView
+			    style="@style/content_title_style"		  
+			    android:id="@+id/external_content"
+			  />
+			 			
+			 <TextView
+			     style="@style/content_title_style"	
+			    android:id="@+id/build_type"
+			 />
+			 <TextView
+			    style="@style/content_title_style"			 
+			    android:id="@+id/build_type_content"
+			 />			 						 
+			 
+			 <TextView		  
+			     style="@style/content_title_style"	
+			     android:id="@+id/memory_info"
+			 />
+			 <TextView
+			     style="@style/content_title_style"	
+			     android:id="@+id/memory_content"
+			 />
+	
+			 <TextView
+			     style="@style/content_title_style"	
+			     android:id="@+id/calibration"/>
+			 <TextView
+			     style="@style/content_title_style"	
+			     android:id="@+id/build_time"
+			  />
+		</LinearLayout>
+    </ScrollView>	  
+</LinearLayout>

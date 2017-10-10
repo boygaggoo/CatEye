@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?> 
+
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android" 
+  android:id="@+id/fm_layout" 
+  android:orientation="vertical" 
+  android:layout_width="fill_parent" 
+  android:layout_height="fill_parent"
+  android:background="#ff000000">
+  	  <Button
+        android:id="@+id/fm_info"
+        android:layout_width="fill_parent"
+        android:layout_height="60dip"
+        android:text="@string/insert_earphone_to_openfm" 
+        android:visibility="gone"
+        />
+        
+     <ListView
+        android:id="@+id/station_list"
+        android:layout_below="@id/fm_info"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+     </ListView>
+     
+     <LinearLayout
+          android:id="@+id/fm_button_layout" 
+		  android:orientation="horizontal" 
+		  android:layout_alignParentBottom="true"
+		  android:layout_width="fill_parent" 
+		  android:layout_height="wrap_content">
+		  	<Button 
+            android:id="@+id/fm_pass"
+            android:layout_width="0dip"
+		    android:layout_height="fill_parent"  
+		    android:layout_weight="1" 
+		    android:textSize="25sp"
+            android:text="@string/pass" 
+            />
+            
+            <Button 
+            android:id="@+id/fm_fail"
+            android:layout_width="0dip"
+		    android:layout_height="fill_parent"  
+		    android:layout_weight="1"   
+		    android:textSize="25sp" 
+            android:text="@string/fail" 
+            />
+     </LinearLayout>
+</RelativeLayout>

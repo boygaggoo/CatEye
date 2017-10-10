@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?> 
+
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android" 
+  android:layout_width="fill_parent" 
+  android:layout_height="fill_parent"
+  android:background="#ff000000"
+  android:id="@+id/otg_layout">
+  <TextView
+      android:id="@+id/otg_tv"
+      android:layout_width="wrap_content"
+      android:layout_height="120dip"
+      android:textSize="20dip"
+      android:textColor="#32cd32"
+      android:text="@string/otg_state_device"/>
+	    
+  	<LinearLayout
+            android:orientation="vertical"
+            android:layout_height="200dip"
+            android:layout_width="fill_parent"
+            android:layout_alignParentBottom="true">
+	      <Button
+	         android:id="@+id/otg_pass"
+	         android:text="@string/pass"
+	         android:layout_height="0dip"
+	         android:layout_width="fill_parent"
+	         android:textSize="50sp"
+	         android:layout_weight="1" 
+	         android:visibility="gone"/>
+	     <Button
+	         android:id="@+id/otg_fail"
+	         android:text="@string/fail"
+	         android:layout_height="0dip"
+	         android:layout_width="fill_parent"
+	         android:textSize="50sp"
+	         android:layout_weight="1" />
+	</LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/versioninfo_layout" >    
+	<ScrollView
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    android:layout_above="@+id/linear">
+		<LinearLayout
+		    android:layout_width="fill_parent"
+		    android:layout_height="fill_parent"
+		    android:orientation="vertical">
+		     <!-- SW Version -->
+		     <TextView
+			    style="@style/content_title_style"
+			    android:text="@string/soft_version"/>
+			 <TextView
+			    style="@style/content_title_style"	
+			    android:id="@+id/soft_version"/>			 
+			 <View 
+			     android:layout_width="fill_parent"
+			     android:layout_height="1dp"
+			     android:background="#00FF00"/>
+		     <!-- Custom Version -->
+		     <TextView
+			    style="@style/content_title_style"
+			    android:text="@string/customer_ver"/>
+			 <TextView
+			    style="@style/content_title_style"	
+			    android:id="@+id/customer_ver"/>
+			 <View 
+			     android:layout_width="fill_parent"
+			     android:layout_height="1dp"
+			     android:background="#00FF00"/>			 
+			 <!-- Modem Version -->
+			 <TextView	
+			    style="@style/content_title_style"
+			    android:text="@string/Modem_version"/>
+			 
+			 <TextView
+			    style="@style/content_title_style"	 
+			    android:id="@+id/modem_ver"/>
+			 
+			 <View 
+			     android:layout_width="fill_parent"
+			     android:layout_height="1dp"
+			     android:background="#00FF00"/>
+			 <!-- Android Version -->
+			 <TextView	
+			    style="@style/content_title_style"
+			    android:text="@string/android_ver"/>			 
+			 <TextView
+			    style="@style/content_title_style"	 
+			    android:id="@+id/android_ver"/>			 
+			 <View 
+			     android:layout_width="fill_parent"
+			     android:layout_height="1dp"
+			     android:background="#00FF00"/>
+			 <!-- Kernel Version -->
+			 <TextView	
+			    style="@style/content_title_style"
+			    android:text="@string/kernel_ver"/>			 
+			 <TextView
+			    style="@style/content_title_style"	 
+			    android:id="@+id/kernel_ver"/>		 
+			 <View 
+			     android:layout_width="fill_parent"
+			     android:layout_height="1dp"
+			     android:background="#00FF00"/>
+			 <!-- TP Version -->
+			 <TextView	
+			    style="@style/content_title_style"
+			    android:text="@string/tp_ver"/>			 
+			 <TextView
+			    style="@style/content_title_style"	 
+			    android:id="@+id/tp_ver"/>			 
+			 <View 
+			     android:layout_width="fill_parent"
+			     android:layout_height="1dp"
+			     android:background="#00FF00"/>			 
+		</LinearLayout>
+    </ScrollView>	  
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_height="wrap_content"
+        android:id="@+id/linear">"
+		<Button
+		    android:id="@+id/version_pass"
+		    android:layout_width="0dp"
+		    android:layout_height="wrap_content"
+		    android:layout_weight="1"
+            android:text="@string/pass"/>
+		<Button
+            android:id="@+id/version_fail"
+            android:layout_width="0dp"
+		    android:layout_height="wrap_content"
+		    android:layout_weight="1"
+            android:text="@string/fail"/>
+     </LinearLayout>
+</RelativeLayout>

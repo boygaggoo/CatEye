@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?> 
+
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android" 
+  android:id="@+id/bluetooth_layout" 
+  android:layout_width="fill_parent" 
+  android:layout_height="fill_parent"
+  android:background="#ff000000">
+  	<TextView
+		android:id="@+id/bluetoothstatus_textview"
+		android:layout_width="fill_parent" 
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textColor="#32cd32"/>
+	<TextView
+		android:id="@+id/bluetooth_textview"
+		android:layout_width="fill_parent" 
+        android:layout_height="wrap_content"
+        android:layout_below="@id/bluetoothstatus_textview"
+        android:textSize="20sp"
+        android:textColor="#32cd32"/>
+        
+    <LinearLayout
+          android:id="@+id/bluetooth_button_layout" 
+		  android:orientation="horizontal" 
+		  android:layout_width="fill_parent" 
+		  android:layout_alignParentBottom="true"
+		  android:layout_height="wrap_content">
+		  	<Button 
+            android:id="@+id/bluetooth_pass"
+            android:layout_width="0dp"
+		    android:layout_height="wrap_content"  
+		    android:layout_weight="1" 
+            android:text="@string/pass" 
+	    android:visibility="gone"
+            />
+            
+            <Button 
+            android:id="@+id/bluetooth_fail"
+            android:layout_width="0dp"
+		    android:layout_height="wrap_content"  
+		    android:layout_weight="1"    
+            android:text="@string/fail" 
+            />
+     </LinearLayout>
+    
+</RelativeLayout>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?> 
+
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android" 
+  android:id="@+id/microphone_layout" 
+  android:orientation="vertical" 
+  android:layout_width="fill_parent" 
+  android:layout_height="fill_parent"
+  android:background="#ff000000">
+  	  <Button
+        android:id="@+id/microphone_info"
+        android:layout_width="fill_parent"
+        android:layout_height="60dip"
+        android:text="@string/start_record" />
+        
+      <TextView
+        android:id="@+id/microphone_time"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/playtime"
+        android:textSize="25sp"
+        android:gravity="center_horizontal"
+        android:layout_weight="1"/>
+        
+     <LinearLayout
+          android:id="@+id/microphone_button_layout" 
+		  android:orientation="vertical" 
+		  android:layout_alignParentBottom="true"
+		  android:layout_width="fill_parent" 
+		  android:layout_height="200dip">
+		  	<Button 
+            android:id="@+id/microphone_pass"
+            android:layout_width="fill_parent"
+		    android:layout_height="0dip"  
+		    android:layout_weight="1" 
+		    android:textSize="35sp"
+            android:text="@string/pass" 
+            android:enabled="false"
+            />
+            
+            <Button 
+            android:id="@+id/microphone_fail"
+            android:layout_width="fill_parent"
+		    android:layout_height="0dip"  
+		    android:layout_weight="1"   
+		    android:textSize="35sp" 
+            android:text="@string/fail" 
+            />
+     </LinearLayout>
+        
+</LinearLayout>
