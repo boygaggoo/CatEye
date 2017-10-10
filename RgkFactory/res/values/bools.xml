@@ -10,7 +10,12 @@
     <bool name="distanceSensor">false</bool>
     <bool name="lightSensor">false</bool>
     <bool name="loundSpeaker">true</bool>
+
+    <!-- wangjun CatEye open! bike close  begin  -->
     <bool name="mainCamera">false</bool>
+    <bool name="microphone">false</bool>
+    <!-- wangjun CatEye open! bike close  end  -->
+        
     <bool name="subCamera">false</bool>
     <bool name="flash">false</bool>
     <bool name="headset">false</bool>
@@ -22,7 +27,6 @@
     <bool name="gps">false</bool>
     <bool name="bluetooth">false</bool>
     <bool name="wiFi">true</bool>
-    <bool name="microphone">false</bool>
     <bool name="tdCode">false</bool>
     <bool name="hall">false</bool>
     <bool name="otg">false</bool>
