@@ -45,7 +45,7 @@ public class MainCamera extends Activity implements View.OnClickListener, Surfac
     public void onCreate(Bundle icicle) {
         // TODO Auto-generated method stub
         super.onCreate(icicle);
-        getWindow().addFlags(WindowManager.LayoutParams.FLAG_HOMEKEY_DISPATCHED);
+       // getWindow().addFlags(WindowManager.LayoutParams.FLAG_HOMEKEY_DISPATCHED);
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
                 WindowManager.LayoutParams.FLAG_FULLSCREEN);
         LogUtils.logD(TAG, "onCreate");

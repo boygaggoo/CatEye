@@ -36,7 +36,7 @@ public class MainActivity extends Activity {
 	SharedPreferences sp;
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
-		getWindow().addFlags(WindowManager.LayoutParams.FLAG_HOMEKEY_DISPATCHED);
+		//getWindow().addFlags(WindowManager.LayoutParams.FLAG_HOMEKEY_DISPATCHED);
 		getWindow().addFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON);
 		getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
                 WindowManager.LayoutParams.FLAG_FULLSCREEN);
@@ -98,7 +98,7 @@ public class MainActivity extends Activity {
 			if(locale.equals("zh_CN"))
 				return;
 		}
-		changeLanguage.setVisibility(View.GONE);
+		//changeLanguage.setVisibility(View.GONE);
 	}
 	public void initLanguage() {
 		sp = PreferenceManager.getDefaultSharedPreferences(this);

@@ -37,25 +37,31 @@
 			 <!-- IMEI1 -->
 			 <TextView	
 			    style="@style/content_title_style"
-			    android:text="@string/IMEI1"/>			 
+			    android:text="@string/IMEI1"
+			    android:visibility="gone"/>			 
 			 <TextView
 			    style="@style/content_title_style"	 
-			    android:id="@+id/imei1"/>			 
+			    android:id="@+id/imei1"
+                            android:visibility="gone"/>			 
 			 <View 
 			     android:layout_width="fill_parent"
 			     android:layout_height="1dp"
-			     android:background="#00FF00"/>
+			     android:background="#00FF00"
+                             android:visibility="gone"/>
 			 <!-- IMEI2 -->
 			 <TextView	
 			    style="@style/content_title_style"
-			    android:text="@string/IMEI2"/>			 
+			    android:text="@string/IMEI2"
+                            android:visibility="gone"/>			 
 			 <TextView
 			    style="@style/content_title_style"	 
-			    android:id="@+id/imei2"/>			 
+			    android:id="@+id/imei2"
+                            android:visibility="gone"/>			 
 			 <View 
 			     android:layout_width="fill_parent"
 			     android:layout_height="1dp"
-			     android:background="#00FF00"/>
+			     android:background="#00FF00"
+                             android:visibility="gone"/>
 			 <!-- PSN -->
 			 <TextView	
 			    style="@style/content_title_style"

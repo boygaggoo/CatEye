@@ -32,7 +32,7 @@ public class Gyroscope extends Activity implements View.OnClickListener,SensorEv
     String testResult,x_min_str,x_max_str,y_min_str,y_max_str,z_min_str,z_max_str;
     @Override
     public void onCreate(Bundle savedInstanceState) {
-    	getWindow().addFlags(WindowManager.LayoutParams.FLAG_HOMEKEY_DISPATCHED);
+    	//getWindow().addFlags(WindowManager.LayoutParams.FLAG_HOMEKEY_DISPATCHED);
     	getWindow().addFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON);
     	getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
                 WindowManager.LayoutParams.FLAG_FULLSCREEN);

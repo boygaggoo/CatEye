@@ -174,7 +174,7 @@ public class TouchPanel1 extends Activity {
     }
 
     public void onCreate(Bundle savedInstanceState) {
-    	getWindow().addFlags(WindowManager.LayoutParams.FLAG_HOMEKEY_DISPATCHED);
+    	//getWindow().addFlags(WindowManager.LayoutParams.FLAG_HOMEKEY_DISPATCHED);
         super.onCreate(savedInstanceState);
         init(this);
         m_TP_buffer = new StringBuffer();

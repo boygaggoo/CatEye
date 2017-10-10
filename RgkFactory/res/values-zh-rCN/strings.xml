@@ -54,7 +54,7 @@
     <string name="magnetic">磁力传感器</string>
     
     <string name="SDcard">T卡</string>
-    <string name="Main_Camera">后摄像头</string>
+    <string name="Main_Camera">摄像头</string>
     <string name="sub_Camera">前摄像头</string>
     
     <string name="SIM_Card">SIM卡</string>

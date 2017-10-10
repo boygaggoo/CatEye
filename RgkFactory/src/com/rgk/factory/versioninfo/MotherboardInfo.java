@@ -35,9 +35,13 @@ public class MotherboardInfo extends Activity implements OnClickListener {
 	TextView chip,board,imei1,imei2,psn,/*blutooth_address,*/wifi_address,memory,lcd,camera,rf_calibrate,gps_calibrate;
 	Button motherboard_pass,motherboard_fail;
 	private boolean hadSendBroadcast = false;
+
+        //wangjun add begin
+	private static String JTEK_BOARD_NAME = "DS05";
+	//wangjun add end
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
-		getWindow().addFlags(WindowManager.LayoutParams.FLAG_HOMEKEY_DISPATCHED);
+		//getWindow().addFlags(WindowManager.LayoutParams.FLAG_HOMEKEY_DISPATCHED);
 		getWindow().addFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON);
 		getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
                 WindowManager.LayoutParams.FLAG_FULLSCREEN);
@@ -79,7 +83,10 @@ public class MotherboardInfo extends Activity implements OnClickListener {
 	}
 	private void setText(){
 		chip.setText(getChip());
-		board.setText(getBoard());
+//wangjun modify begin
+		//board.setText(getBoard());
+		board.setText(JTEK_BOARD_NAME);
+//wangjun modify end
 		imei1.setText(getImei1());
 		imei2.setText(getImei2());
 		psn.setText(getPsn());
