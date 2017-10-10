@@ -244,5 +244,6 @@
     <string name="jtek_input_pwd">Please input passwd:</string>
     <string name="jtek_wrong_pwd">Wrong password!</string>
     <string name="jtek_confirm">Confirm</string>
+    <string name="jtek_back">Back</string>
 
 </resources>

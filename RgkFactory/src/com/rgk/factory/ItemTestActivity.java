@@ -16,6 +16,7 @@ import android.widget.AdapterView.OnItemClickListener;
 import android.widget.GridView;
 import android.widget.LinearLayout;
 import android.view.Display;
+import android.widget.Button;
 
 public class ItemTestActivity extends Activity implements OnItemClickListener{
 	private static String TAG = "ItemTestActivity";
@@ -25,6 +26,7 @@ public class ItemTestActivity extends Activity implements OnItemClickListener{
 	public static int mHeight;
 	GridView gridView;
 	GridAdapter gridAdapter;
+	private Button Btn_back;
 
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
@@ -48,6 +50,12 @@ public class ItemTestActivity extends Activity implements OnItemClickListener{
 		mHeight = display.getHeight();
 		IntentFilter filter = new IntentFilter();
 		filter.addAction(Config.ItemOnClick);
+		Btn_back = (Button)findViewById(R.id.btn_back);
+		Btn_back.setOnClickListener(new View.OnClickListener() {
+                public void onClick(View v) {
+                 onBackPressed();
+                }   
+            });
 
 	}
 	
