@@ -12,8 +12,8 @@
     <bool name="loundSpeaker">true</bool>
 
     <!-- wangjun CatEye open! bike close  begin  -->
-    <bool name="mainCamera">false</bool>
-    <bool name="microphone">false</bool>
+    <bool name="mainCamera">true</bool>
+    <bool name="microphone">true</bool>
     <!-- wangjun CatEye open! bike close  end  -->
         
     <bool name="subCamera">false</bool>
