@@ -8,6 +8,7 @@
     <!-- android:sharedUserId="android.uid.system" -->
     <uses-sdk android:minSdkVersion="14" />
 
+	
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.WRITE_SETTINGS" />
